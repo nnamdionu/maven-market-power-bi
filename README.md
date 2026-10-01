@@ -46,6 +46,8 @@ The Power BI model separates transactional activity from descriptive dimensions.
 
 Transaction and returns data function as fact tables, while Customers, Products, Calendar, Stores, and Regions provide the analytical dimensions. A dedicated Measures table centralizes reusable DAX calculations.
 
+![Maven Market Power BI Data Model](maven-market-data-model.png)
+
 ## Measures & KPIs
 
 DAX measures were developed to evaluate:
@@ -63,25 +65,33 @@ DAX measures were developed to evaluate:
 - Monthly Target Performance
 - Weekend Transactions
 
-## Dashboard & Analysis
+## Topline Performance Dashboard
 
-The Power BI report includes:
+The main dashboard provides a management-level view of transactions, profit, returns, product performance, geographic performance, revenue trends, and performance against monthly targets.
 
-### Topline Performance Dashboard
+![Maven Market Topline Performance Dashboard](maven-market-dashboard.png)
 
-Provides a management-level view of transactions, profit, returns, product performance, geographic performance, revenue trends, and performance against monthly targets.
+## Supporting Analysis
+
+Additional report pages were developed to move beyond topline KPIs and investigate the business findings in greater detail.
 
 ### Key Business Insights
 
-Summarizes the most decision-relevant findings from the analysis and provides navigation to supporting analytical pages.
+A dedicated insights page summarizes the most decision-relevant findings from the report and provides navigation to the supporting analysis.
+
+![Maven Market Key Business Insights](maven-market-insights.png)
 
 ### Store Performance Analysis
 
-Compares stores using total revenue and revenue per square foot to distinguish overall sales performance from performance relative to store size.
+Store-level analysis compares total revenue with revenue per square foot, helping distinguish overall sales performance from performance relative to store size.
+
+![Maven Market Store Performance Analysis](maven-market-store-analysis.png)
 
 ### Return Performance Analysis
 
-Evaluates product brands using both return rate and total returns to identify differences in return frequency and return volume.
+Return analysis compares product brands using both return rate and total returns, providing complementary views of return frequency and return volume.
+
+![Maven Market Return Performance Analysis](maven-market-returns-analysis.png)
 
 ## Key Business Insights
 
@@ -113,7 +123,7 @@ Power BI · Power Query · DAX · Data Modelling · Fact & Dimension Tables · K
 
 ## Live Case Study
 
-View the full interactive portfolio case study:
+For the full portfolio presentation of this project, view the live case study:
 
 https://nnamdionu.github.io/maven-market.html
 
