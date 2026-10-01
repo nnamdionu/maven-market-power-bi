@@ -21,6 +21,19 @@ The analysis uses the Maven Market retail dataset, including:
 
 The project analyzes more than **269K transaction records**, representing over **10K customers**, **1,560 products**, and **24 stores**.
 
+### Source Files
+
+The source data used to build the Power BI report is included in this repository:
+
+- `MavenMarket_Calendar.csv`
+- `MavenMarket_Customers.csv`
+- `MavenMarket_Products.csv`
+- `MavenMarket_Regions.csv`
+- `MavenMarket_Returns_1997-1998.csv`
+- `MavenMarket_Stores.csv`
+- `MavenMarket_Transactions_1997.csv`
+- `MavenMarket_Transactions_1998.csv`
+
 ## Tools & Technologies
 
 - Power BI
