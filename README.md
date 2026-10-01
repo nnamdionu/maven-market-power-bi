@@ -34,7 +34,7 @@ The project analyzes more than **269K transaction records**, representing over *
 
 The complete Power BI report is available in this repository:
 
-[Download the Maven Market Power BI Report](Maven-Market-Sales-Performance-Analysis.pbix)
+[View / Download the Maven Market Power BI Report](Maven-Market-Sales-Performance-Analysis.pbix)
 
 > Requires Microsoft Power BI Desktop to open the `.pbix` file.
 
